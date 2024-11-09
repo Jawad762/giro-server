@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  giro.api:
+    image: ${DOCKER_REGISTRY-}giroapi
+    build:
+      context: .
+      dockerfile: Giro.Api\Dockerfile

@@ -1,0 +1,6 @@
+@Giro.Api_HostAddress = http://localhost:5058
+
+GET {{Giro.Api_HostAddress}}/
+Accept: application/json
+
+###
